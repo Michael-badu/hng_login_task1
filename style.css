@@ -1,30 +1,129 @@
 * {
-  margin:0;
-  padding:0;
-  box-sizing:border-box; }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family:'Poppins', sans-serif;
-  line-height: 2.5rem; } 
+  line-height: 2.5rem;
+  background-image: url(sign_in.svg)
+}
 
 a {
-  color:blue;
-  text-decoration:none; }
+  color: blue;
+  text-decoration: none;
+}
 
 .container {
   max-width: 1440px;
-  overflow:auto;
-  background:#fff; }
+  overflow: auto;
+  background: #fff;
+}
 
 img {
-   width:70%; 
+   width:65%;
    display:block;
-   margin: 6rem auto; }
+   margin: 10.5rem auto;
+}
+
+.image_description {
+  position:relative;
+ 
+  background:#fbfeff;
+}
 
 .card {
   display:grid;
-  grid-template-columns: 1.1fr 0.9fr; 
-  background:#fbfeff;
-  height: 100vh; }
+  grid-template-columns: 1.1fr 0.9fr;
+  height: 100vh;
+}
 
-#login_form { background: #fff; }
+#login_form {
+  margin: 10rem auto;
+}
+
+h4 {
+  color: #cccccc;
+}
+
+#welcomeText {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+#email, 
+#password,
+#sign_in_btn {
+  height:2.5rem;
+  width:16.85rem;
+  border-radius:25px;
+  margin-top:0.75rem;
+  color:#fff;
+}
+
+#email,
+#password {
+  background-color: #e6e6e6;
+  font-size: 0.8rem;
+  padding-left: 10px;
+  color: black;
+}
+
+#sign_in_btn {
+  background-color: #0000ff;
+  padding: 0.63rem 0;
+}
+
+
+#sign_in_btn:hover {
+  background-color: #3c3cf0;
+  color: #fff;
+}
+
+#forgotpassword {
+  margin-left:3.5rem;
+  text-decoration: none;
+  color:  #a6a6a6;
+  width: 70%;
+  display: block;
+}
+
+.main_title {
+  position: relative; 
+  top: 1rem;
+  left: 1rem;
+}
+
+.main_span {
+  color: #0056ec;
+  border: 3px solid #0056ec;
+  padding: 0.5rem;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+
+.main_span .red_text {
+  color: #eb5757;
+}
+
+.main_span .orange_text {
+  color: #f2994a;
+}
+
+.main_span .skyBlue_text {
+  color: #56ccf2;
+}
+
+.main_span .purple_text {
+  color: #bb6bd9;
+}
+
+.main_span .green_text {
+  color: #27ae60;
+}
